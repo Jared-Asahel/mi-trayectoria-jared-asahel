@@ -1,0 +1,86 @@
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.header__title {
+  font-family: "Inter";
+  color: #242424;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.header__job {
+  color: black;
+  margin: 0;
+  font-size: 25px;
+}
+
+.header__technologies {
+  margin-top: 20px;
+  color: grey;
+  font-size: 25px;
+}
+
+.header__content {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  gap: 30px;
+}
+
+.header__button-projects {
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.header__button-projects i {
+  font-size: 20px;
+  margin-right: 7px;
+  transition: transform 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.header__button-cv {
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: #dedede;
+  color: black;
+  padding: 20px 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  align-content: center;
+}
+
+.header__button-linkedln {
+  width: 270px;
+  border: 1.5px #dedede solid;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  color: black;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.header__button-linkedln i {
+  font-size: 20px;
+}

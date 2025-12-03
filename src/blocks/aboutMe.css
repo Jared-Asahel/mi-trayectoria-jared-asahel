@@ -1,0 +1,25 @@
+.aboutMe {
+  background-color: #ededed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.aboutMe__title {
+  font-family: "Inter";
+  color: #242424;
+  font-size: 65px;
+  margin-bottom: 20px;
+}
+
+.aboutMe__content {
+  max-width: 800px;
+}
+
+.aboutMe__paragraph {
+  font-size: 23px;
+  color: #4a4a4a;
+  text-align: center;
+}

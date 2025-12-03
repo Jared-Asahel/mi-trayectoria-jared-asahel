@@ -1,0 +1,47 @@
+.projectCard {
+  background-color: white;
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  border: 1.5px #dedede solid;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.projectCard__title {
+  margin: 0 0 15px 0;
+  font-size: 25px;
+}
+
+.projectCard__paragraph {
+  color: grey;
+  font-size: 16px;
+}
+
+.projectCard__button {
+  display: flex;
+  align-items: center;
+  background-color: #ededed;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: black;
+  width: 80px;
+}
+
+.projectCard__button i {
+  font-size: 25px;
+}
+
+.projectCard__icon {
+  background-color: #ededed;
+  border: 0;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.projectCard__content {
+  display: flex;
+  gap: 8px;
+}
